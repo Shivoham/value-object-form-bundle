@@ -1,0 +1,5 @@
+services:
+    shivoham_value_object_form.form.extension.form_extension:
+        class: Shivoham\ValueObjectFormBundle\Form\Extension\FormExtension
+        tags:
+            - { name: form.type_extension, extended_type: Symfony\Component\Form\Extension\Core\Type\FormType }

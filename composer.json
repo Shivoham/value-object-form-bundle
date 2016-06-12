@@ -1,0 +1,21 @@
+{
+    "name": "shivoham/value-object-form-bundle",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/form": "^3.1",
+        "symfony/dependency-injection": "^3.1",
+        "symfony/http-kernel": "^3.1",
+        "symfony/config": "^3.1"
+    },
+    "authors": [
+        {
+            "name": "schevalier",
+            "email": "chevalier.syl20@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shivoham\\ValueObjectFormBundle\\": ""
+        }
+    }
+}
